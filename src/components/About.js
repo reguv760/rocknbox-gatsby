@@ -1,5 +1,5 @@
 import React from 'react';
-import OfficeBuilding from './../assets/officeBuilding2.jpg';
+import OfficeBuilding from './../assets/img/officeBuilding2.jpg';
 
 //who we are page:::
 const About = () => {

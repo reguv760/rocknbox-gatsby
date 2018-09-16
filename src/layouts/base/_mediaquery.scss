@@ -4,6 +4,11 @@
 
 	.container .content
 	{	
+
+		& .product 
+		{
+		    flex-flow: column nowrap;
+		}
 		& .about__container
 		{
 			flex-flow:column nowrap;

@@ -34,12 +34,10 @@ const cardStyles = {
 const buttonStyles = {
   fontSize: "13px",
   textAlign: "center",
-  color: "#fff",
   outline: "none",
-  padding: "12px 60px",
+  padding: "1.2rem 6rem",
   boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
-  backgroundColor: "rgb(255, 178, 56)",
-  borderRadius: "6px",
+  borderRadius: "0.5rem",
   letterSpacing: "1.5px",
 };
 
@@ -117,10 +115,7 @@ const Product1 = class extends React.Component {
               <li>Item #2</li>
               <li>Item #3</li>
             </ul>
-
-            {/*<a href="#">
-                          <div className="product__buyButton">purchase now!</div>
-                        </a> */ }
+            
             <button
               style={buttonStyles}
               onClick={event => this.openStripeCheckout(event)}

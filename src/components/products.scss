@@ -6,10 +6,11 @@
     flex-flow: row nowrap;
     width: 92%;
     margin: 4rem auto;
+    padding:1rem;
     background-color: $purple;
     min-height: 25rem;
     border-radius: 0.5rem;
-    box-shadow:(0.1rem 0.1rem 0.1rem 0.1rem $off-black);
+    box-shadow:(0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0, 0.5));
 
     & .product__image 
     {
@@ -31,6 +32,20 @@
       & p 
       {
         color: $off-white;
+        margin:1rem;
+      }
+
+      & button
+      {
+        color:$off-white;
+        background-color:$hot-pink;
+      }
+
+      & button:hover
+      {
+        color:$purple;
+        background-color:$spring-green;
+        cursor:pointer;
       }
 
       h4.comingSoon

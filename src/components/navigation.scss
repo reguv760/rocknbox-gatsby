@@ -17,7 +17,18 @@ nav
 		width: 40rem;
 		height: 100%;
 		margin: 0 1rem;
-		grid-area: logo;
+
+		& a
+		{
+			text-decoration:none;
+			grid-area: logo;
+
+		}
+
+		& a:hover
+		{
+			opacity:0.6;
+		}
 	}
 
 	& ul.menu 
