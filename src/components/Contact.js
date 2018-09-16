@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section id="Contact" className="content">
       <div className="contact__grid">
-        <div className="contactForm col">
+        <div className="contact__grid-col">
           <h2>Contact Us!</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
@@ -72,7 +72,7 @@ const Contact = () => {
             )}
           </Form>
         </div>
-        <div className="customerSupport col">
+        <div className="contact__grid-col">
           <h2>Customer Support</h2>
           <ul className="customerSupport__container">
             <li>Phone: 1-800-111-1111</li>

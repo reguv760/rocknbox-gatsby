@@ -7,7 +7,17 @@ const ProductsCSS = styled.div`
   padding: 2rem 0;
 `;
 
-const Product3 = () => {
+
+const PriceCSS = styled.div`
+  display:inline-block;
+  font-weight:bold;
+  font-size:1.6rem;
+  margin:0;
+  padding:0;
+  color:#eee;
+`;
+
+const Product2 = () => {
   return (
     <ProductsCSS>
       <div className="product">
@@ -27,15 +37,15 @@ const Product3 = () => {
             <li>Item #3</li>
             <li>Item #4</li>
             <li>Item #5</li>
-            <li>Item #6</li>
-            <li className="exclusive">Item #7 (Member exclusive!)</li>
           </ul>
 
-          <h4 className="comingSoon">Coming Soon!</h4>
+          <a href="#">
+            <div className="product__buyButton">purchase now!</div>
+          </a>
         </div>
       </div>
     </ProductsCSS>
   );
 };
 
-export default Product3;
+export default Product2;

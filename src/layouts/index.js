@@ -5,7 +5,10 @@ import Helmet from 'react-helmet'
 import Header from './../components/header'
 import Container from './../components/Container'
 import Footer from './../components/Footer'
+import 'normalize.css'
 import './index.scss'
+
+import favIcon from './../assets/favicon/favicon-32x32.png'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -14,6 +17,10 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+      ]}
+
+      link={[
+          { rel: 'shortcut icon', type: 'image/png', href: `${favIcon}` }
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />

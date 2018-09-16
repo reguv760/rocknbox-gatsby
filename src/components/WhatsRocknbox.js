@@ -8,11 +8,12 @@ const WhatRock = () => {
 
       <div className="whatRock__container">
         <div className="whatRock__container-col">
-          <h2>
+          <h3>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut culpa
             nulla ipsum amet a ab neque. Odio impedit inventore nemo aliquid
             eius consectetur repellendus ad?
-          </h2>
+          </h3>
+          
           <h3>Veniam perferendis iste odio officiis!</h3>
         </div>
 

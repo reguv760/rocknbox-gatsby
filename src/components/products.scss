@@ -32,46 +32,30 @@
       {
         color: $off-white;
       }
+
+      h4.comingSoon
+      {
+        font-weight:bold;
+        font-size:2rem;
+      }
     }
 
     & ul.product__content 
     {
-      list-style-type: circle;
+      list-style-type: disc;
       color: $off-white;
+
       & li 
       {
         font-size: 2rem;
-        margin: 0.5rem 0;
+        margin: 0.8rem 0;
       }
 
       & li.exclusive 
       {
         font-weight: bold;
       }
-    }
-  }
 
-  & a
-  {
-    text-decoration: none;
-
-    & .product__buyButton 
-    {
-      color: #eee;
-      background-color: $hot-pink;
-      border-radius: 0.5rem;
-      width: 12rem;
-      margin: 1rem;
-      padding: 1rem;
-      font-size: 1.6rem;
-      font-weight: bold;
-      letter-spacing: 0.025em;
-      text-decoration:none;
-    }
-
-    & .product__buyButton:hover
-    {      
-      color: $light-pink;
     }
   }
 }

@@ -7,10 +7,19 @@ const ProductsCSS = styled.div`
   padding: 2rem 0;
 `;
 
+const PriceCSS = styled.div`
+  display:inline-block;
+  font-weight:bold;
+  font-size:1.6rem;
+  margin:0;
+  padding:0;
+  color:#eee;
+`;
+
 //::STRIPE FUNCTIONALITY / PRICE PER PRODUCT:::
 // hardcoded amount (in US cents) to charge users
 // you could set this variable dynamically to charge different amounts
-const amount = 2500;
+const amount = 999;
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
@@ -95,6 +104,7 @@ const Product1 = class extends React.Component {
           <div className="product__image" />
 
           <div className="product__desc">
+            <PriceCSS>$9.99/month</PriceCSS>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
               delectus placeat deleniti, rerum maiores temporibus, velit possimus

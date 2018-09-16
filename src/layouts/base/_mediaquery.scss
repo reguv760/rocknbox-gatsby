@@ -2,6 +2,30 @@
 @media only screen and (max-width: $desktopRes)
 {
 
+	.container .content
+	{	
+		& .about__container
+		{
+			flex-flow:column nowrap;
+
+			&-col
+			{
+				margin:0 auto;
+				width:90%;
+			}
+		}
+
+		& .contact__grid 
+		{
+			flex-flow: column nowrap;
+
+			&-col 
+			{
+				width: 90%;
+				margin:0 2rem;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: $tabletRes)
@@ -30,7 +54,7 @@
 		{
 			flex-flow: column nowrap;
 
-			& .col 
+			&-col 
 			{
 				width: 90%;
 				margin:0 2rem;
