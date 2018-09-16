@@ -1,0 +1,183 @@
+.container section
+{
+	padding-top: 8rem;
+	min-height: 80vh;
+
+	& h2 
+	{
+	  font-size: 3.6rem;
+	  font-weight: bold;
+	  color:$spring-green;
+	  letter-spacing:0.025em;
+	}
+
+	& p 
+	{
+		font-size:1.8rem;
+		color:$off-black;
+	}
+}
+
+.container .currentTheme 
+{
+	width: 100%;
+	height: 100vh;
+	background-color: $hot-pink;
+}
+
+.container .content 
+{
+	width: 96%;
+	margin: 0 auto;
+	min-height: 60rem;
+
+	& .whatRock__container
+	{
+		display:flex;
+		flex-flow:row nowrap;
+		justify-content:space-around;
+
+
+		&-col
+		{
+			width:50%;
+			margin:0 1rem;
+
+
+			& h2
+			{
+				font-size:2.4rem;
+				color:$off-black;
+			}
+
+			& h3
+			{
+				font-size:2.4rem;
+				color:$dark-grey;
+			}
+			
+			& p 
+			{
+				font-size:1.4rem;
+				line-spacing:1.4em;
+			}
+		}
+
+	}
+
+	/* FAQ */
+	& .questionAnswer 
+	{
+		width: 98%;
+		margin: 1.5rem auto;
+
+		& h3 
+		{
+			color:$off-white;
+			font-size: 2rem;
+		}
+
+		& blockquote 
+		{
+		  font-size: 1.6rem;
+		  line-height: 1.4em;
+		  width: 96%;
+		  margin: 0 auto;
+		}
+	}
+
+	/* Contact */
+	& .contact__grid 
+	{
+		display: flex;
+		flex-flow: row nowrap;
+		width: 95%;
+		margin: 0 auto;
+
+		& .col 
+		{
+			width: 50%;
+			margin:0 2rem;
+		}
+
+		& .contactForm
+		{	
+
+			& form 
+			{
+				display:block;
+				margin:0 auto;
+				padding:0;
+			}
+
+			& form ul.contactForm__container
+			{
+				list-style-type:none;
+				display:flex;
+				flex-flow:column nowrap;
+				justify-content:space-around;
+				margin:0;
+				padding:0;
+				
+
+				& li
+				{
+					display:flex;
+					flex-flow:column nowrap;
+					margin:0.5rem 0;
+					
+					& label
+					{
+						font-size:1.4rem;
+						font-weight:bold;
+					}
+
+					& input,					
+					& textarea
+					{
+						margin:0 0.5rem;
+						width:100%;
+					}
+
+					& button 
+					{
+						margin:1rem;
+						color:$off-white;
+						background-color:$purple;
+						width:10rem;
+					}
+				}
+			}
+		}
+
+		& .customerSupport
+		{
+			& ul.customerSupport__container
+			{
+				list-style-type:none;
+
+				& li 
+				{
+					font-size:1.8rem;
+				}
+
+				& li a 
+				{
+					color:$off-white;
+					text-decoration:none;
+				}
+
+				& li a:hover
+				{
+					color:$purple;
+				}
+			}
+
+			& p.legal
+			{
+				font-size:1.2rem;
+				margin:1rem 0;
+			}
+		}
+	}
+}

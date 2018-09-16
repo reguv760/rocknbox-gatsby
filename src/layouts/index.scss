@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+//@import './base/gatsby-reset';
+
+@import './base/_variables';
+
+/* used by all pages */
+@import './base/_base';
+
+/*used by header */
+@import './../components/navigation';
+@import './../components/login';
+
+/* used by pages */
+
+@import './../components/mainContent';
+@import './../components/products';
+@import './../components/footer';
+
+
+@import './base/_mediaquery';

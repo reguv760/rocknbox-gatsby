@@ -1,0 +1,52 @@
+.login
+{
+  display:block;
+  
+  & p
+  {
+    margin:0.2rem 0;
+    padding:0;
+    color:$off-white;
+    font-size:1.2rem;
+  }
+
+  & ul.login 
+  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    & li 
+    {
+      margin: 0;
+      padding: 0;
+
+      & label.color 
+      {
+        font-size:1.2rem;
+        color: $off-white;
+      }
+
+      & input
+      {
+        margin: 0.25rem;
+        width: 60%;
+      }
+
+      &.login__button
+      { 
+        width:100%;
+        text-align:right;
+
+        & button
+        {
+          margin-right:1.8rem;
+        }
+      }
+    }
+  }
+}

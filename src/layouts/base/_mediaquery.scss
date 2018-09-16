@@ -1,0 +1,39 @@
+/* trigger when it's below max-width:: */
+@media only screen and (max-width: $desktopRes)
+{
+
+}
+
+@media only screen and (max-width: $tabletRes)
+{
+	.container .content 
+	{
+
+		& .whatRock__container
+		{
+			flex-flow:column nowrap;
+
+			&-col
+			{
+				width:90%;
+			}
+		}
+
+		& .contact__grid 
+		{
+			flex-flow: column nowrap;
+
+			& .col 
+			{
+				width: 90%;
+				margin:0 2rem;
+			}
+		}
+	}
+
+}
+
+@media only screen and (max-width: $mobileRes)
+{
+
+}
