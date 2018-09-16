@@ -6,6 +6,13 @@
 
 @media only screen and (max-width: $tabletRes)
 {
+	nav 
+	{
+		grid-template-rows: 8rem 1fr; /* 6rem = height of logo */
+		grid-template-areas:
+		'logo   	login'
+		'menu       menu';
+	}
 	.container .content 
 	{
 
@@ -29,6 +36,16 @@
 				margin:0 2rem;
 			}
 		}
+	}
+
+	.footer__grid
+	{
+	  flex-flow:column nowrap;
+
+	  & .col 
+	  {
+	    width: 90%;
+	  }
 	}
 
 }

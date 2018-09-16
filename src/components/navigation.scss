@@ -12,13 +12,6 @@ nav
 	'logo   	login'
 	'logo 		menu';
 
-	@mixin atTablet 
-	{
-		grid-template-areas:
-		'logo   logo'
-		'menu   menu';
-	}
-
 	& .logo 
 	{
 		width: 40rem;
