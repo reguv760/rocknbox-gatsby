@@ -14,16 +14,18 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'rocknbox description' },
+        { name: 'keywords', content: 'rocknbox, susbscription, music, collection, funko' },
       ]}
 
       link={[
           { rel: 'shortcut icon', type: 'image/png', href: `${favIcon}` }
       ]}
     />
+    
     <Header siteTitle={data.site.siteMetadata.title} />
     
+    {/* main function load external pages */}
     { children() }
 
     <Footer />

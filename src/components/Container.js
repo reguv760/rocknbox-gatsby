@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import MainContent from './MainContent';
 
 const ContainerCSS = styled.div`
   display: flex;
@@ -11,10 +10,12 @@ const ContainerCSS = styled.div`
   background-color: #2bd1fc;
 `;
 
-const Container = () => {
+//this is how you define a ReactJS Component
+//where external content can be loaded into:::
+const Container = ({children}) => {
   return (
     <ContainerCSS>
-      <MainContent />
+      {children}
     </ContainerCSS>
   );
 };
