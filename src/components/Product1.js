@@ -49,7 +49,7 @@ const Product1 = class extends React.Component {
     this.stripeHandler = StripeCheckout.configure({
       // You’ll need to add your own Stripe public key to the `checkout.js` file.
       // key: 'pk_test_STRIPE_PUBLISHABLE_KEY',
-      key: "pk_test_J0ETUVIepcuVocZb2ZqNJ263",
+      key: `${process.env.STRIPE_PUBLIC_KEY}`,
       closed: () => {
         this.resetButton();
       },
@@ -60,11 +60,11 @@ const Product1 = class extends React.Component {
     event.preventDefault();
     this.setState({ disabled: true, buttonText: "WAITING..." });
     this.stripeHandler.open({
-      name: "Demo Product",
+      name: "Demo Product #1",
       amount: amount,
-      description: "A product well worth your time",
+      description: "Subscription Box #1",
       token: token => {
-        fetch(`https://46sbcn54r4.execute-api.us-east-1.amazonaws.com/dev/checkout`, {
+        fetch(`${process.env.AWS_SERVER}`, {
           method: "POST",
           body: JSON.stringify({
             token,
