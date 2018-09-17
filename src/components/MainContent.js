@@ -1,18 +1,19 @@
 import React from 'react';
 
 //pages
-import WhatRock from './WhatsRocknbox.js';
-import Products from './Products.js';
-import About from './About.js';
-import Contact from './Contact.js';
-import Faq from './Faq.js';
+import CurrentTheme from './CurrentTheme';
+import WhatRock from './WhatsRocknbox';
+import Products from './Products';
+import About from './About';
+import Contact from './Contact';
+import Faq from './Faq';
 
 
 const MainContent = () => {
   return (
     <div className="container">
     
-      <section className="currentTheme" />
+      <CurrentTheme />
 
       <WhatRock />
       <Products />
