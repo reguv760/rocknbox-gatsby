@@ -7,7 +7,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Stripe Starter by RG',
+    title: "rock'n'box: A subscription ox for music lovers and collectors",
   },
   plugins: [
   	'gatsby-plugin-react-helmet', 

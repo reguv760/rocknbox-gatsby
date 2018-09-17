@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import LargeBox from './../assets/svg/rocknbox-large.svg';
 
 const ProductsCSS = styled.div`
   width: 96%;
@@ -11,7 +12,9 @@ const Product3 = () => {
   return (
     <ProductsCSS>
       <div className="product">
-        <div className="product__image" />
+        <div className="product__image">
+          <img src={LargeBox} alt="rock'n'box large subscription box"/>
+        </div>
 
         <div className="product__desc">
           <p>

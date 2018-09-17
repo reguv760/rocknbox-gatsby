@@ -3,6 +3,10 @@
 node_modules
 yarn-error.log
 
+# psd + ai
+.ai
+.psd
+
 # Build directory
 /public
 .DS_Store

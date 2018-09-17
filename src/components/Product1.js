@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SmallBox from './../assets/svg/rocknbox-small.svg'
 
 const ProductsCSS = styled.div`
   width: 96%;
@@ -100,7 +101,9 @@ const Product1 = class extends React.Component {
     return (
       <ProductsCSS>
         <div className="product">
-          <div className="product__image" />
+          <div className="product__image">
+            <img src={SmallBox} alt="rock'n'box small subscription box" />
+          </div>
 
           <div className="product__desc">
             <PriceCSS>$9.99/month</PriceCSS>
