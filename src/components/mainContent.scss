@@ -129,8 +129,62 @@
 				display:block;
 				margin:0 auto;
 				padding:0;
-
 				
+				& ul.contactForm__container
+				{
+					list-style-type:none;
+					display:flex;
+					flex-flow:column nowrap;
+					justify-content:space-around;
+					margin:0;
+					padding:0;
+
+					& li
+					{
+						display:flex;
+						flex-flow:column nowrap;
+						margin:0.5rem 0;
+						
+						& label
+						{
+							font-size:1.4rem;
+							font-weight:bold;
+						}
+
+						& input,					
+						& textarea
+						{
+							font-size:1.6rem;
+							margin:0 0.5rem;
+							width:50%;
+						}
+
+
+						& textarea
+						{	
+							min-height:10rem;
+						}
+
+						& button 
+						{
+							text-align:center;
+							margin:1rem;
+							color:$off-white;
+							background-color:$hot-pink;
+							width:10rem;
+							cursor:pointer;
+							outline: none;
+							padding: 0.5rem;
+							borderRadius: 0.5rem;
+						}
+
+						& button:hover
+						{
+							color:$purple;
+							background-color:$spring-green;
+						}
+					}
+				}				
 			}
 
 			& ul.customerSupport__container
