@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from "gatsby-link"
 import logo from './../assets/svg/rocknbox-logo.svg';
-
 import Login from './Login';
 
 const Navigation = () => {
@@ -16,20 +15,21 @@ const Navigation = () => {
       <Login />
 
       <ul className="menu">
-        <li>
-          <a href="#products">products</a>
+        <li>          
+          <Link to="/#products">products</Link>
         </li>
         <li>
-          <a href="#FAQ">FAQ</a>
+          <Link to="/#FAQ">FAQ</Link>
         </li>
         <li>
-          <a href="#About">About</a>
+          <Link to="/#About">About</Link>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <Link to="/#Contact">Contact</Link>
         </li>
       </ul>
     </nav>
   );
 };
+
 export default Navigation;

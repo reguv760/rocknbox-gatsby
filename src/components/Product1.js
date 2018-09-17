@@ -7,13 +7,14 @@ const ProductsCSS = styled.div`
   padding: 2rem 0;
 `;
 
-const PriceCSS = styled.div`
+const PriceCSS = styled("price")`
   display:inline-block;
   font-weight:bold;
-  font-size:1.6rem;
+  font-size:3.6rem;
   margin:0;
   padding:0;
   color:#eee;
+  font-family: 'Germania One', cursive;
 `;
 
 //::STRIPE FUNCTIONALITY / PRICE PER PRODUCT:::
