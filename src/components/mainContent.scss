@@ -6,16 +6,17 @@
 	
 	& h2 
 	{
-	  font-size: 4rem;
+	  font-size: 4.2rem;
 	  font-weight: bold;
 	  color:$spring-green;
 	  letter-spacing:0.05em;
 	  font-family: 'Germania One', cursive;
+	  text-shadow:0.2rem 0.2rem $off-black;
 	}
 
 	& p 
 	{
-		font-size:1.8rem;
+		font-size:2rem;
 		color:$off-black;
 	}
 }

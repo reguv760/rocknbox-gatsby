@@ -27,7 +27,7 @@ const Product3 = () => {
             <li>Item #3</li>
             <li>Item #4</li>
             <li>Item #5</li>
-            <li>Item #6</li>
+            <li className="exclusive">Item #6 (Member exclusive!)</li>
             <li className="exclusive">Item #7 (Member exclusive!)</li>
           </ul>
 
