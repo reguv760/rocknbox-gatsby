@@ -21,12 +21,12 @@ const Contact = () => {
         <div className="contact__grid-col">
           <h2>Customer Support</h2>
           <ul className="customerSupport__container">
-            <li>Phone: 1-800-111-1111</li>
             <li>
-              Email:
-              <a href="mailto:customersupport@rocknbox.com">
-                customersupport@rocknbox.com
-              </a>
+              <h4>Phone: <span className="supportNumber">1-800-111-1111</span></h4>
+            </li>
+            <li>
+              <h4>Email: <a href="mailto:customersupport@rocknbox.com" target="_blank">customersupport@rocknbox.com</a>
+              </h4>
             </li>
           </ul>
 
