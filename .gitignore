@@ -4,8 +4,8 @@ node_modules
 yarn-error.log
 
 # psd + ai
-.ai
-.psd
+*.ai
+*.psd
 
 # Build directory
 /public

@@ -8,6 +8,17 @@ const ProductsCSS = styled.div`
   padding: 2rem 0;
 `;
 
+const PriceCSS = styled.div`
+  display:inline-block;
+  font-weight:bold;
+  font-size:3.6rem;
+  margin:0;
+  padding:0;
+  color:#eee;
+  font-family: 'Germania One', cursive;
+`;
+
+
 const Product3 = () => {
   return (
     <ProductsCSS>
@@ -17,6 +28,7 @@ const Product3 = () => {
         </div>
 
         <div className="product__desc">
+          <PriceCSS>Large Box</PriceCSS>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
             delectus placeat deleniti, rerum maiores temporibus, velit possimus

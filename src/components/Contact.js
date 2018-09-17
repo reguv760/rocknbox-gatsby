@@ -22,10 +22,13 @@ const Contact = () => {
           <h2>Customer Support</h2>
           <ul className="customerSupport__container">
             <li>
-              <h4>Phone: <span className="supportNumber">1-800-111-1111</span></h4>
+              <h4>Phone: <a href="tel:+1-800-111-1111">1-800-111-1111</a></h4>
             </li>
             <li>
               <h4>Email: <a href="mailto:customersupport@rocknbox.com" target="_blank">customersupport@rocknbox.com</a>
+              </h4>
+
+              <h4>Orders: <a href="mailto:orders@rocknbox.com" target="_blank">orders@rocknbox.com</a>
               </h4>
             </li>
           </ul>

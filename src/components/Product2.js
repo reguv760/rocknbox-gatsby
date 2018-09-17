@@ -106,7 +106,7 @@ const Product2 = class extends React.Component {
           </div>
 
           <div className="product__desc">
-            <PriceCSS>$19.99/month</PriceCSS>
+            <PriceCSS>Medium Box: $19.99/month</PriceCSS>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
               delectus placeat deleniti, rerum maiores temporibus, velit possimus
