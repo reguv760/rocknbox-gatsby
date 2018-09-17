@@ -4,9 +4,10 @@ import React from 'react';
 import CurrentTheme from './CurrentTheme';
 import WhatRock from './WhatsRocknbox';
 import Products from './Products';
+import Faq from './Faq';
 import About from './About';
 import Contact from './Contact';
-import Faq from './Faq';
+import Legal from './Legal';
 
 
 const MainContent = () => {
@@ -20,6 +21,7 @@ const MainContent = () => {
       <Faq />
       <About />
       <Contact />
+      <Legal />
 
     </div>
   );

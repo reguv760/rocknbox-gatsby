@@ -8,30 +8,15 @@ const WhatRock = () => {
 
       <div className="whatRock__container">
         <div className="whatRock__container-col">
-          <h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut culpa
-            nulla ipsum amet a ab neque. Odio impedit inventore nemo aliquid
-            eius consectetur repellendus ad?
+          <h3>Rock’n’Box is a subscription service for anyone who loves rock music who also seeks something unique to add to their growing music collection. 
+
           </h3>
           
           <h3>Veniam perferendis iste odio officiis!</h3>
         </div>
 
         <div className="whatRock__container-col">
-          <p>
-            Sed consequat, erat a scelerisque laoreet, risus ante suscipit
-            massa, quis laoreet ex leo non odio. Praesent tristique erat id arcu
-            vestibulum sodales. Curabitur sit amet posuere ligula. Praesent
-            velit sapien, lobortis quis lorem eget, luctus suscipit magna.
-            Curabitur ante elit, bibendum sit amet fermentum et, mollis vitae
-            lacus. Vivamus vestibulum mauris et felis rutrum, id condimentum dui
-            dignissim. Morbi laoreet eget enim eu rutrum. Fusce vitae fringilla
-            risus. Nunc condimentum libero ac ex auctor, consequat porttitor sem
-            vestibulum. Phasellus sollicitudin congue tortor, eu interdum dui
-            laoreet non. Mauris vitae libero at augue ultricies ullamcorper et
-            eget lorem. Quisque sit amet magna nec quam imperdiet dictum. Proin
-            maximus eget nibh ut vehicula. Sed lobortis, ipsum nec convallis
-            rutrum, mi nisl sollicitudin lectus, a faucibus orci mi a dolor.
+          <p>Rock’n’Box is an online subscription-based service that curates and offer music collectibles and merchandise for its subscribers based on popular rock entertainers, performers and legends.
           </p>
         </div>
       </div>

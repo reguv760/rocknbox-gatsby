@@ -1,7 +1,7 @@
 .container section
 {
 	padding-top: 8rem;
-	min-height: 80vh;
+	min-height: 60vh;
 	margin-bottom:2rem;
 	
 	& h2 
@@ -63,20 +63,16 @@
 			width:50%;
 			margin:0 1rem;
 
-			& h2
-			{
-				font-size:2.4rem;
-				color:$off-black;
-			}
-
 			& h3
 			{
+				margin:0 0 1rem 0;
 				font-size:2.4rem;
 				color:$dark-grey;
 			}
 			
 			& p 
 			{
+				margin:0;
 				font-size:1.4rem;
 				line-spacing:1.4em;
 			}
@@ -86,21 +82,20 @@
 	/* FAQ */
 	& .questionAnswer 
 	{
-		width: 98%;
 		margin: 1.5rem auto;
 
 		& h3 
 		{
 			font-weight:bold;
 			color:$off-white;
-			font-size: 2rem;
+			font-size: 2.4rem;
 		}
 
 		& blockquote 
 		{
 		  font-size: 1.6rem;
-		  line-height: 1.4em;
-		  width: 96%;
+		  line-height: 1.6em;
+		  width: 90%;
 		  margin: 0 auto;
 		}
 	}
@@ -136,7 +131,6 @@
 	{
 		display: flex;
 		flex-flow: row nowrap;
-		width: 95%;
 		margin: 0 auto;
 
 		&-col 
@@ -241,12 +235,16 @@
 					color:$purple;
 				}
 			}
+		}
+	}
 
-			& p.legal
-			{
-				font-size:1.2rem;
-				margin:1.5rem 0;
-			}
+	//legal section:::
+	& .legal__grid
+	{
+		& p.legal
+		{
+			font-size:1.4rem;
+			margin:1.5rem 0;
 		}
 	}
 }
