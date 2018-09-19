@@ -7,7 +7,7 @@ import Return from './Return';
 import SocialMedia from './SocialMedia';
 
 const FooterCSS = styled.footer`
-  height: 20rem;
+  min-height: 20rem;
   width: 100%;
 `;
 

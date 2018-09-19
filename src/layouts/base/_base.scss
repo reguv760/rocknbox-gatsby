@@ -11,13 +11,18 @@ body
   width: 100%;
   margin: 0;
   padding: 0;
+  position:relative;
+}
+
+/* used by pages/index.js */
+.mainContainer
+{  
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
     'header'
     'container';
   background-color: $off-black;
-  position:relative;
 }
 
 img

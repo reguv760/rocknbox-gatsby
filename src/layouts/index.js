@@ -10,7 +10,7 @@ import './index.scss'
 import favIcon from './../assets/favicon/favicon-32x32.png'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="mainContainer">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
