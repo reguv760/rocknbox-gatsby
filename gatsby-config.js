@@ -11,7 +11,14 @@ module.exports = {
   },
   plugins: [
   	'gatsby-plugin-react-helmet', 
-  	'gatsby-plugin-sass',
-  	'gatsby-plugin-stripe-checkout'
+  	'gatsby-plugin-stripe-checkout',  	
+  	{
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        includePaths: [
+          require('path').resolve(__dirname, 'node_modules')
+        ]
+      }
+    },
   ],
 }
